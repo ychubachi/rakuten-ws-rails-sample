@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.0.0
+- 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: UQ5FVjx10H6POsL5CGwcAU3MNUsoLK1opSC1yrkbgKnXni2a53i5eKYWdDIczuyVCkeldceZsXyQiD1qinaf6XnThtrwOwJobUt9aWBolnzVcyj2h5e3hr8IasRR+taVK9bVej6flSH4NdEBRuRs6/XfC8z32qTAd+UW/qK7bvo=
+  app: rocky-anchorage-9757
+  on:
+    repo: ychubachi/rakuten-ws-rails-sample
